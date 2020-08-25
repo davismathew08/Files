@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHome"
+    android:animateLayoutChanges="true"
+    android:layoutAnimation="@anim/layout_animation_left_to_right">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textColor="#F5F5F5"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
